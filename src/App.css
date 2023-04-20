@@ -1,3 +1,30 @@
+.layout {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 800px;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.lists {
+  max-width: 1130px;
+  min-width: 800px;
+  display: flex;
+  gap: 12px;
+  padding: 80px;
+  flex-wrap: wrap;
+  
+}
+
 .list {
   width: 100px;
   height: 100px;
@@ -6,19 +33,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-};
-
-.title{
-  font-size: 60px;
 }
-
-.lists{
-  display: flex;
-  padding: 100px;
-  gap: 12px;
-};
-
-.listadd{
-  align-items: center;
-  justify-content: center;
-};
