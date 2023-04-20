@@ -2,11 +2,6 @@ import React, { useState } from "react"
 import './App.css';
 
 const App = () => {
-  const style ={
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  }
   const [user, setUsers] = useState([
     // { id: 1, body: '리액트를 배워봅시다' }
   ]);
@@ -28,8 +23,9 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div style={style} className="listAdd">
+    <div className="layout">
+      <div 
+      className="container">
         <input
         placeholder="todolist를 입력해주세요"
         value={body}
@@ -38,9 +34,10 @@ const App = () => {
       </div>
 
       <div className="add">
-        
           <div className="title">
-            <h4>Todo List</h4>
+            <span>
+              Todo List
+            </span>
           </div>
 
           <div className="lists"> 
