@@ -1,0 +1,24 @@
+.list {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+};
+
+.title{
+  font-size: 60px;
+}
+
+.lists{
+  display: flex;
+  padding: 100px;
+  gap: 12px;
+};
+
+.listadd{
+  align-items: center;
+  justify-content: center;
+};
